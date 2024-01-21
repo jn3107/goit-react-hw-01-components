@@ -1,0 +1,49 @@
+.transactionHistory {
+    background-color: gainsboro;
+    border: 3px solid paleturquoise;
+    border-radius: 20px;
+    width: 1200px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tableHead {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(3, 126, 180);
+    font-size: 30px;
+    font-weight: 700px;
+    height: 50px;
+    padding: 7px;
+    border: 3px solid black;
+}
+
+.tableDataCell {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    height: 50px;
+    font-weight: 700px;
+    font-size: 30px;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+tr:nth-child(even) {
+    background-color: #0435f680;
+}
+
+.tableData:hover {
+    background: rgb(240, 228, 5);
+}
+
+
+
+
+
+
+
+
+
